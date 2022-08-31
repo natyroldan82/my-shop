@@ -9,7 +9,7 @@ return(
 
     return (
         <p>
-            jhfhdjfhjdshfñsdf
+           Ejemplo para practicar
         </p>
         
     );

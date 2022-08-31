@@ -13,10 +13,10 @@ import Navbar from 'react-bootstrap/Navbar';
         <Container>
           <Navbar.Brand href="#home">
             <img
-              alt=""
+              alt="logo principal"
               src="../APPLE_icon.svg"
-              width="40"
-              height="40"
+              width="80"
+              height="80"
               className="d-inline-block align-top"
             />{' '}
            Tienda Apple
