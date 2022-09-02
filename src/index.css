@@ -23,9 +23,12 @@ html {
   }
   .navbar-nav{
     font-size: 25px;
-    color: beige;
+   
   }
  .navbar-nav {
     font-size: 25px;
      
   }
+ .CartWidget{
+  color: aqua;
+ }
