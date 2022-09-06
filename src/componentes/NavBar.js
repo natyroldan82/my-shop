@@ -7,7 +7,7 @@ import CartWidget from '../componentes/CartWidget/index';
  function Header() {
   return (
     <>
-      <Navbar bg="ligth" variant="dark">
+      <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">
             <img

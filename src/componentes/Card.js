@@ -7,13 +7,13 @@ import image3 from '../img/iphone-12-pro.png';
 function GroupExample() {
   return (
     
-    <CardGroup >
+    <CardGroup className='container'>
 
       <Card >
         <Card.Img variant="top" src={image1}/>
         <Card.Body text-center>
           <Card.Title >Apple Iphone 11</Card.Title>
-          <Card.Text>
+          <Card.Text >
             $810-$910
           </Card.Text>
         </Card.Body>
