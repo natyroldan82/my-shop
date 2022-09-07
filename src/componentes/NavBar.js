@@ -28,6 +28,7 @@ import CartWidget from '../componentes/CartWidget/index';
             <Nav.Link href="#Productos">Accesorios</Nav.Link>
             <Nav.Link href="#Servicios">Servicios Técnico</Nav.Link>
             <CartWidget></CartWidget>
+            
           </Nav>
          
         </Container>
