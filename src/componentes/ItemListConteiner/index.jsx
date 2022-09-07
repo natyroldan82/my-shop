@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Title from '../Title';
-export const ItemListContainer =() =>{
+import ItemCount from '../ItemCount';
+export const ItemListContainer =({greeting}) =>{
     return(
-        <Title greeting= 'Tu nuevo Superpoder'/>
+        <Fragment>
+       <Title greeting= 'Tu nuevo Superpoder'/>
+        <ItemCount ></ItemCount>
+        </Fragment>
     );
 }
 export default ItemListContainer;
