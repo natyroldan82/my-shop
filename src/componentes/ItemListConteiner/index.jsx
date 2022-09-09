@@ -6,8 +6,7 @@ export const ItemListContainer =() =>{
     return(
         <Fragment>
             
-      // <Title greeting= 'Tu nuevo Superpoder'/>
-        <ItemCount ></ItemCount>
+       
         </Fragment>
     );
 }
