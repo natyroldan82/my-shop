@@ -1,14 +1,14 @@
 import React from 'react'
-import Producto from './Producto';
-import image1 from '../assets/iphone-12-blue.png';
-import image2 from '../assets/iphone-12-green.png';
-import image3 from '../assets/iphone-12-pro.png';
+import Producto from '../containers/Producto';
+import image1 from '../../src/assets/index2.jpg';
+import image2 from '../../src/assets/index1.jpg';
+import image3 from '../../src/assets/index.jpg';
 const Productos = [
   {
     id:1,
     title:'Apple Iphone 11',
     text:" 810-950",
-    image:'image1'
+    image:"image1"
   },
   {
     id:2,
@@ -24,7 +24,7 @@ const Productos = [
    }
 ]
 function Cards() {
-  
+  console.log(Productos)
   return (
     <div className="container d-flex justify-content-center align-items-center h-100">
         <div className='row'>
