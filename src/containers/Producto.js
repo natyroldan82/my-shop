@@ -1,14 +1,5 @@
-
-
-
-import producto from './Productos';
-
-
 function Card({imageSource,title,price}) {
-    
-   
-
-   console.log (imageSource);
+     console.log (imageSource);
     return(
         <div className='card text-center bg-dark '>
             <img src= {imageSource} alt= "iphone"/>
