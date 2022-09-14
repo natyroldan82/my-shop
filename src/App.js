@@ -16,8 +16,6 @@ function App() {
       {/*<ItemListContainer></ItemListContainer>
        <ItemDetailContainer></ItemDetailContainer>*/}
       
-      
-      
       <Productos>
       <ItemCount></ItemCount>
       </Productos>
