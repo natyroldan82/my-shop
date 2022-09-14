@@ -3,21 +3,27 @@ import './App.css';
 
 import Header from './componentes/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemListContainer from './componentes/ItemListConteiner';
+import ItemCount from './componentes/ItemCount';
 import Productos from './containers/Productos';
-
+//import ItemDetailContainer from './componentes/ItemDetailContainer';
 
 function App() {
   return (
+
     <>
-   
+      
       <Header></Header>
-      <ItemListContainer></ItemListContainer>
-      <div className='App'>
-      <Productos></Productos>
-      </div>
+      {/*<ItemListContainer></ItemListContainer>
+       <ItemDetailContainer></ItemDetailContainer>*/}
+      
+      
+      
+      <Productos>
+      <ItemCount></ItemCount>
+      </Productos>
+      
      
-    </>
+      </>
     
   );
 }

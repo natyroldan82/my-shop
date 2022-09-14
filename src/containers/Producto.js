@@ -6,7 +6,7 @@ function Card({imageSource,title,price}) {
             <div className='card-body text-light'>
                 <h4 className='card-title'>{title}</h4>
                 <p className='card-text text-secondary'>{price}</p>
-                <a href="#1" className='btn btn-outline-secondary bg-info'>INFO</a>
+                <a href="Home" className='btn btn-outline-secondary bg-info'>INFO</a>
             </div>
         </div>
     )
