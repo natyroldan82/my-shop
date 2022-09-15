@@ -16,9 +16,11 @@ function App() {
      
     
       <Header></Header>
-
+      <ItemCount />
       
-       <ItemDetailContainer/>
+       <ItemDetailContainer />
+       
+     
       
      
       
