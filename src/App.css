@@ -14,3 +14,14 @@
   height:100vh;
  
  }
+ .container{
+  width: 98%;
+  margin: auto;
+ }
+ .detail{
+  margin-top: 3rem;
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ }
