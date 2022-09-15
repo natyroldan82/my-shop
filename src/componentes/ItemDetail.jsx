@@ -1,6 +1,6 @@
 import React from 'react';
 import Productos from '../../src/utils/Data';
-import '../../src/'
+
  export const ItemDetail = ({data}) => {
     return(
         <div className= "container">
